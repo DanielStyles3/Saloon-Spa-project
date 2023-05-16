@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+        --Swiper CSs
+    -->
+    <link rel="stylesheet" href="Assets/swiper-bundle.min css.css">
+    
+    <!--
+        --CSS LINK
+    -->
+    <link rel="stylesheet" href="Styles.css">
+    <!--
+        --flaticon
+    -->
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+    <title>Barbing Saloon</title>
+    
+</head>
+<body>
+    <!--
+        --link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <!--
+            --header containinig the nav menu
+        -->
+        <header>
+            <h1>Barbing <span>Saloon</span></h1>
+        <nav class="Menu">
+            <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#appointment">APPOINTMENT</a></li>
+            <li><a href="#service">SERVICE</a></li>
+            <li><a href="#About">ABOUT</a></li>
+        </ul>
+        </nav>
+        </header>
+        <!--
+            --banner section
+        -->
+        <section class="banner">
+            <div>
+                <img src="images/pexels-max-rahubovskiy-7195806.jpg" alt="image">
+                <div class="banner-content">
+                    <h2>Welcome to Styles Saloon and <span>Spa</span></h2>
+                    <button type="button">Explore Our Service
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+        <!--
+            --Main section
+        -->
+        <main>
+            <article>
+                <section>
+                    <h3>GALLERY</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error odio sit cumque velit quibusdam facilis dolorum in odit,
+                    nemo laudantium vel culpa omnis beatae cupiditate amet fugiat veritatis voluptatem maiores!</p>
+                    <div class="Container">
+                        <img src="images/barb2.webp" alt="img">
+                        <img src="/images/barb3.webp" alt="img">
+                        <img src="images/barb55.jpeg" alt="img">
+                    </div>
+                </section>
+            </article>
+        </main>
+        <hr>
+
+        <!--
+            --service
+        -->
+        <h3>Service We Offer</h3>
+        <section class="service" id="service">
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="image-content">
+                                <span class="overlay"></span>
+    
+                                <div class="card-image">
+                                    <img src="images/hair style.jpeg" alt="img" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h3 class="name">Hair Cutting</h3>
+                                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, odio a qui cupiditate exercitationem deleniti recusandae, quis eum facilis ipsum vitae distinctio. Dolorem sequi reprehenderit nulla fugit dolore molestias debitis provident qui perferendis.</p>
+                                <button class="button">View More
+                                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="Assets/massage.webp" alt="img" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="name">Body Massage</h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, tempora animi. Voluptates, nihil dolorum, corrupti dolore repellat quae, voluptatibus sunt dolorem quaerat soluta illo velit fuga nesciunt quisquam doloremque corporis?</p>
+                            <button class="button">View More
+                                <ion-icon name="arrow-forward-outline"></ion-icon>
+                                
+                            </button>
+                        </div>
+                    </div>
+
+                   
+
+            
+
+              <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-scrollbar"></div>
+    <div class="swiper-pagination"></div>
+            </div>
+                    --> 
+                    
+                    
+        </section>
+    
+        <hr>
+        
+            
+            
+            <!--
+                --Appointment
+            -->
+            <section class="appointment">
+                <div class="container">
+                    <div class="Text">
+                        <h4>Make An Appointment</h4>
+                    </div>
+                <form>
+                    <div class="input-group">
+                    <input type="text" name="Name" required>
+                    <label for="Name" Enter Name>Name:</label>
+                </div>
+                    <br>
+
+                    <div class="input-group">
+                    <input type="email"  name="email" required>
+                    <label for="email"Enter Email>Enter Email:</label>
+                    </div>
+                    <br><br>
+
+                    <div class="input-group">
+                    <input type="Number"  name="Number" required>
+                    <label for="Number"Enter Number>Enter Number:</label>
+                    </div>
+                    <br><br>
+
+                    <div class="input-group">
+                    <input type="datetime"  name="datetime" required>
+                    <label for="datetime" Enter datetime>Enter Datetime:</label>
+                    </div>
+                    <br><br>
+
+                    <div class="input-type">
+                    <select name="catergory" class="input-field">
+                        <option value="Select Categories">Select Categories</option>
+                        <option value="Beauty & Spa">Beauty & Spa</option>
+                        <option value="Body Massage">Body Massage</option>
+                        <option value="shaving & Facial">Shaving & Facial</option>
+                    </select>
+                    </div>
+                    <br><br>
+
+                    <div class="input-group">
+                        <div class="message">
+                    <textarea class="textarea" placeholder="write message"></textarea>
+                </div>
+                    <br><br>
+                    <button class="submit">
+                        <span>Appointment Time</span>
+                    </button>
+                    </div>
+                </div>
+                </form>
+            </section>
+            <!--
+                --About
+            -->
+            <main class="About">
+                <h2>About Us</h2>
+                
+                </div>
+                <p>Welcome to Your Salon & Spa, where luxury meets relaxation. Our salon and spa offer a wide range of services to cater to all your beauty and wellness needs.</p>
+                
+                <h3>Our Mission</h3>
+                <p>At Your Salon & Spa, our mission is to provide exceptional services in a calm and soothing environment. We strive to exceed your expectations and leave you feeling rejuvenated and pampered.</p>
+                
+                <h3>Our Services</h3>
+                <ul>
+                    <li>Haircuts and Styling</li>
+                    <li>Facials and Skincare</li>
+                    <li>Massages and Body Treatments</li>
+                    <li>Manicures and Pedicures</li>
+                    <li>Makeup Application</li>
+                    <li>Waxing and Hair Removal</li>
+                </ul>
+                
+                <h3>Contact Us</h3>
+                <p>If you have any questions or would like to book an appointment, please feel free to reach out to us:</p>
+                <p>Email:Styles saloonspa @gmail.com</p>
+                <p>Phone:08070642956</p>
+            
+            
+            
+            
+            
+            
+            
+            </main>
+</body>
+</html>

@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+/**
+**THE HEADER CONTAINING THE H1 AND NAV MENU
+**/
+header{
+    padding: 1rem;
+    background-color: #323232 ;
+    
+}
+    header h1{
+    color: black;
+    text-align: left;
+    text-shadow: 1px;
+}
+h1 span{
+    color: brown;
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 1em;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #d3b6a3;
+    font-size: 20px;
+}
+nav a:hover,
+nav a:focus{
+    border: 1px solid #64646c;
+    background:#6e7067 ;
+    color:#d7312d ;
+    border-radius: 1rem;
+    border-bottom: 1em;
+}
+/**
+**BANNER SECTION
+**/
+.banner{
+    height: 500px;
+    position:relative;
+    ;
+}
+.banner img{
+    height: 100%;
+    width:100%;
+    /* opacity: 50%; */
+    position: absolute;
+    top:0;
+    left: 0;
+    object-fit: cover;
+}
+.banner-content h2{
+    position: absolute;
+    text-align: center;
+    /* background-color: #f5f2f2d4; */
+    color:#272e2f ;
+    top: 30%;
+    left: 40%;
+    font-weight: bolder;
+    /* height: 30px; */
+    transform:translate(-50,-50) ;
+}
+.banner-content h2 span{
+    color:#584432 ;
+    font-size: 2rem;
+}
+.banner-content p{
+    position: absolute;
+    font-size: 1rem;
+    color:#272e2f ;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+}
+.banner-content button{
+    position: absolute;
+    border-radius: 45px;
+    top: 60%;
+    Left:60%;
+    color: #5c748a;
+    background-color: #272e2f;
+}
+.banner-content button:hover,
+.banner-content button:focus{
+    border:1px solid #584432;
+    border-radius:1rem ;
+    background:#816e5c ;
+    border-bottom: 1em;
+    color: #c4ccd0;
+}
+/**
+**MAIN
+**/
+main{
+    background-color:#c4ccd0 ;
+}
+main h3{
+    text-align: center;
+    color:#816e5c ;
+    font-weight: 700;
+
+}
+main p{
+    font-size: 1em;
+}
+main img{
+    margin: 1em;
+    white-space: nowrap;
+}
+/**
+**Service
+**/
+h3{
+    text-align: center;
+    font-weight: 700;
+    color: #323232;
+    background: #5c748a;
+    
+}
+.service{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box ;
+    background-color: #c4ccd0;
+}
+.slide-container{
+    max-width: 1120px;
+    width:100% ;
+    background-color:#c4ccd0 ;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+}
+
+.card{
+    width: 320px;
+    border-radius: 25px;
+    background-color:#372c31 ;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    align-items: center;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+    .overlay{
+        position: absolute;
+        height:100% ;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color:#797484 ;
+        border-radius:25px 25px 0 25px ;
+    }
+    .overlay ::before,
+    .overlay ::after{
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        right:0;
+        bottom:-40px;
+        background-color:#372c31 ;
+    }
+    .overlay ::after{
+        border-radius: 0 25 0 0;
+        background-color:#372c31 ;
+    }
+
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    background:#88566c ;
+    padding: 3px;
+
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border:4px solid #797484;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color:#a05f3b ;
+}
+.description{
+    font-size: 14px;
+    color:#797484 ;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color:#783c3b ;
+    padding: 8px 16px;
+    background-color:#5c748a ;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button :hover,
+.button ::after{
+    background:#a05f3b ;
+    border-radius: 14px;
+    color: #584432;
+    border:2px solid #783c3b;
+    border-bottom: #797484;
+
+
+}
+
+/**
+**Appointment
+**/
+.container{
+    width: 100%;
+    height:100%;
+    background-image: url(images/pexels-max-rahubovskiy-7195805.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+form{
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+}
+h4{
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    font: 33px "sansheriff";
+    top: auto;
+}
+.input-group{
+    margin: 30px;
+    position: relative;
+}
+input{
+    width:100%;
+    padding: 10px;
+    outline:0;
+    border:1px solid whitesmoke;
+    background-color:#eff0ec ;
+}
+label{
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    color: #323232;
+    cursor: text;
+    transition: 0.2s;
+}
+.input-type{
+    margin:30px;
+    position: relative;
+    
+}
+.input-field{
+    background-color:#5f5b57 ;
+    border:1px solid #7b6e63;
+    outline: 0;
+    padding: 1em;
+    cursor: pointer;
+    
+}
+
+
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #48413c;
+    border-radius: 4px;
+    resize: vertical;
+    background: #eff0ec;
+    color: black;
+    
+}
+
+.submit{
+    cursor: pointer;
+    padding: 1em 0;
+    border: 1px solid#5f5b57 ;
+    background:#eff0ec;
+    color:#5f5b57;
+    outline: 0;
+    width:100%;
+    border-radius: 15px;
+} 
+input:focus~label,
+input:valid~label{
+    top: -35px;
+    font-size: 14px;
+}                                
+
+/**
+**About US
+**/
+
+
+
