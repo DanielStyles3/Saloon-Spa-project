@@ -11,6 +11,11 @@ header{
     background-color: #323232 ;
     
 }
+.logo{
+    height: 15px;
+    width: 10px;
+    margin-top: 1px;
+}
     header h1{
     color: black;
     text-align: left;
