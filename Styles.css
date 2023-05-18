@@ -10,6 +10,7 @@ header{
     padding: 1rem;
     background-color: #323232 ;
     
+    
 }
 .logo{
     height: 15px;
@@ -20,6 +21,8 @@ header{
     color: black;
     text-align: left;
     text-shadow: 1px;
+    font-weight: 700;
+    font-size: 3em;
 }
 h1 span{
     color: brown;
@@ -69,14 +72,16 @@ nav a:focus{
     /* background-color: #f5f2f2d4; */
     color:#272e2f ;
     top: 30%;
-    left: 40%;
-    font-weight: bolder;
+    left: 10%;
+    font-weight: 700;
+    font-size: 3em;
     /* height: 30px; */
     transform:translate(-50,-50) ;
 }
 .banner-content h2 span{
     color:#584432 ;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
 }
 .banner-content p{
     position: absolute;
@@ -260,7 +265,8 @@ form{
 }
 h4{
     text-align: center;
-    font-weight: 600;
+    font-size:3em ;
+    font-weight: 800;
     margin: 0;
     font: 33px "sansheriff";
     top: auto;
@@ -331,8 +337,30 @@ input:valid~label{
 }                                
 
 /**
-**About US
+**Footer
 **/
-
-
+.footer{
+    margin-top: 0px;
+    width: 100%;
+    padding: 10px 0;
+    background: #5c748a;
+    color: whitesmoke;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+col{
+    flex-direction: 2;
+}
+.col1{
+    flex-grow: 2;
+}
+.col1 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
 
