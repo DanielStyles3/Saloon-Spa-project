@@ -54,10 +54,11 @@ nav a:focus{
 **/
 .banner{
     height: 500px;
-    position:relative;
-    ;
+    position: relative;
+    
 }
-.banner img{
+
+.banner video{
     height: 100%;
     width:100%;
     /* opacity: 50%; */
@@ -67,15 +68,15 @@ nav a:focus{
     object-fit: cover;
 }
 .banner-content h2{
-    position: absolute;
+    position:absolute;
     text-align: center;
-    /* background-color: #f5f2f2d4; */
+     background-color:#c4ccd0 ; 
     color:#272e2f ;
     top: 30%;
     left: 10%;
     font-weight: 700;
     font-size: 3em;
-    /* height: 30px; */
+    height: 30px; 
     transform:translate(-50,-50) ;
 }
 .banner-content h2 span{
